@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+
+{%block main%}
+<div class="center">
+
+   <img class="my-4" src="{{ url_for('static',filename='propic.png') }}" height="200px" width="200px"></img>
+   <div class="text py-1">
+    <h2>Troy Smith</h2>
+    <p>@thefader</p>
+    <p>Kingston, Jamaica</p>
+    <p>{{ date }}</p>
+</div>
+</div>
+<div id="bio" class="container py-2">Troy Smith is a young trap producer from jamaica who's making move in the rap culture.
+                             Contact me if you need any assistance with making of your trap beats.</div>
+    <div id="middle" class="container my-3">
+    <div class="row">
+        <div class="col-lg-4"><strong>12</strong><br>Post</div>
+        <div class="col-lg-4"><strong>78</strong><br>Following</div>
+        <div class="col-lg-4"><strong>897</strong><br>Followers</div>
+    </div>
+    <a class="btn btn-primary my-5" href="#">Follow</a>
+    </div>
+    
+{%endblock%}

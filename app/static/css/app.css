@@ -1,3 +1,33 @@
 body {
     padding-top: 5rem;
 }
+img{
+    border-radius: 100px;
+}
+.center{
+    text-align: center;
+    background-color: hsl(183, 31%, 48%);
+}
+#bio{
+    width: 410px;
+   
+}
+.col-lg-4{
+    text-align: center;
+}
+.row{
+    margin-left: 360px;
+    margin-right: 360px;
+}
+#middle{
+    text-align: center;
+}
+.btn{
+    width:120px;
+    border-radius: 10px;
+   
+}
+.text{
+    color: white;
+
+}
